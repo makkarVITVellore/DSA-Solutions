@@ -36,11 +36,11 @@ class GfG
 
 
 //User function Template for Java
-
 class Solution
 {
     public boolean findPair(int arr[], int size, int n)
     {
+        /*
         //brute force approach
         
         for(int i=0;i<size-1;i++)
@@ -52,6 +52,35 @@ class Solution
                     return true;
                 }
             }
+        }
+        
+        return false;
+        */
+        
+        // optimal approach - binary search
+        
+        Arrays.sort(arr);
+        
+        int i=0;
+        int j = i+1;
+        
+        while(i<arr.length && j<arr.length)
+        {
+            int diff = arr[j]-arr[i];
+            
+            if(j!=i && diff==n)
+            {
+                return true;
+            }
+            else if(diff>n)
+            {
+                i++;
+            }
+            else
+            {
+                j++;
+            }
+          
         }
         
         return false;
