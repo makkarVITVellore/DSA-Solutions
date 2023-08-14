@@ -111,7 +111,7 @@ class Solution
         
         //partitioning the linked list into 2 halves - first & second
         Node firstHead = head;
-        Node secondTail = mid.next;
+        Node secondTail = mid.next; // or partionedHead
         
         mid.next=null;
         
