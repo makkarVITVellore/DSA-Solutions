@@ -111,51 +111,33 @@ class Solution
     {
        Node slow = head;
        Node fast = head;
+       Node prev = head;
        
        while(fast!=null && fast.next!=null)
        {
+           prev=slow;
            slow = slow.next;
            fast = fast.next.next;
            
            if(slow==fast)
            {
-               if(head==slow)
-               {
-                   removeLoopHelper1(head,fast);
-               }
-               else
-               {
-                   removeLoopHelper2(head,slow); 
-               }
-              
-               break;
+              removeLoopHelper(head,slow,prev); 
+              break;
            }
        }
     }
     
-    public static void removeLoopHelper1(Node head, Node fast)
+    public static void removeLoopHelper(Node head, Node slow,Node prev)
     {
         Node temp = head;
         
-        while(temp.next!=fast.next.next)
+        while(temp!=slow)
         {
-            fast = fast.next.next;
-            temp=temp.next;
-        }
-        
-        fast.next.next = null;
-    }
-    
-    public static void removeLoopHelper2(Node head, Node slow)
-    {
-        Node temp = head;
-        
-        while(temp.next!=slow.next)
-        {
+            prev=slow;
             slow = slow.next;
             temp=temp.next;
         }
         
-        slow.next = null;
+        prev.next = null;
     }
 }
