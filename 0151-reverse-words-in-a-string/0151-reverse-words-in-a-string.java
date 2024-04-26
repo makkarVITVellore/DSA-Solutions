@@ -11,7 +11,6 @@ class Solution {
             {
                 wordList.add(word.trim());
                 word="";
-                continue;
             }
             else if(i==len-1)
             {
