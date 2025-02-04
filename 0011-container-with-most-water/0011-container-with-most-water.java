@@ -5,7 +5,7 @@ class Solution {
         int area = 0;
         int i = 0;
         int j = n-1;
-        while(i<j){
+        while(i<=j){
             area = (j-i)*Math.min(height[i],height[j]);
 
             if(area>maxArea){
