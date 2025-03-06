@@ -7,16 +7,11 @@ class Solution {
 
         // To keep track of sum of elements so far.
         int currsum = 0;
-
+        prevSum.put(0,1);
         for (int i = 0; i < n; i++) {
 
             // Add current element to sum so far.
             currsum += nums[i];
-
-            // If current sum is equal to desired sum, then a new subarray is found. So, increase count of subarrays.
-            if (currsum == k) {
-                res += 1;
-            }
             
             /*
                 If current sum exceeds given sum by current sum  - sum. 
