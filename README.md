@@ -10,6 +10,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 | [0053-maximum-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
 |  |
@@ -24,6 +25,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 ## Matrix
 |  |
 | ------- |
@@ -40,4 +42,5 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 <!---LeetCode Topics End-->
