@@ -7,6 +7,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0011-container-with-most-water) |
+| [0049-group-anagrams](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -23,6 +24,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -43,4 +45,12 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
+## String
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0049-group-anagrams) |
+## Sorting
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
