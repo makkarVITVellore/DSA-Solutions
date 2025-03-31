@@ -16,8 +16,7 @@ class Solution {
 
             if(map.containsKey(rem)){
                 count = count + map.get(rem);
-                int freq = map.get(rem);
-                map.put(rem,freq+1);
+                map.put(rem, map.get(rem)+1);
             }else{
                 map.put(rem,1);
             } 
