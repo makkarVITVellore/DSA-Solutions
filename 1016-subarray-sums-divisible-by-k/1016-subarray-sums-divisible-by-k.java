@@ -20,7 +20,7 @@ class Solution {
                 map.put(rem,freq+1);
             }else{
                 map.put(rem,1);
-            }
+            } 
         }
 
         return count;
