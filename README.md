@@ -53,4 +53,12 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0049-group-anagrams) |
+## Math
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0069-sqrtx) |
+## Binary Search
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
