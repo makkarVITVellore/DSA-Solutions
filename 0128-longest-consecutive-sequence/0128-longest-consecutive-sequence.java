@@ -19,7 +19,6 @@ class Solution {
                 maxLen = Math.max(maxLen,j-element);
             }
         }
-        System.out.println(nums.length);
         return maxLen;
     }
 }
