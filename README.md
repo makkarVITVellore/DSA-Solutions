@@ -10,6 +10,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 | [0049-group-anagrams](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0948-sort-an-array](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0948-sort-an-array) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -27,6 +28,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 | ------- |
 | [0049-group-anagrams](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 ## Matrix
@@ -84,4 +86,8 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0948-sort-an-array) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
