@@ -1,64 +1,38 @@
 class Solution {
     public int singleNonDuplicate(int[] nums) {
-        int si=0;
-        int ei=nums.length-1;
-
-        if(si==ei){
-            return nums[si];
+    int n = nums.length;
+        if(n==1){
+            return nums[0];
         }
-        return singleNonDuplicateHelper(nums,si,ei);        
-    }
 
-    public static int singleNonDuplicateHelper(int[] nums, int si, int ei){
+        if(nums[0]!=nums[1]){
+            return nums[0];
+        }
+        
+        if(nums[n-1]!=nums[n-2]){
+            return nums[n-1];
+        }
 
-        if(si<=ei){
+        int si=1;
+        int ei=n-2;
 
+        while(si<=ei){
             int mid = (si+ei)/2;
 
-            if(mid>0 && mid<nums.length-1){
-                
-                int midElement = nums[mid];
+            int midElement = nums[mid];
 
-                if(nums[mid-1]==midElement || nums[mid+1]==midElement){
-                    
-                    int leftAns = singleNonDuplicateHelper(nums, si, mid-1);
-                    int rightAns = singleNonDuplicateHelper(nums, mid+1, ei);
-
-                    if(leftAns!=-1){
-                        return leftAns;
-                    }
-
-                    return rightAns;
-
-                }
-                else{
-                    return midElement;
-                }
-
-            }
-            else if(mid==0){
-                int midElement = nums[mid];
-                int rightElement = nums[mid+1];
-
-                if(midElement!=rightElement){
-                    return midElement;
-                }
-
-                return -1;
-                
-            }
-            else if(mid==nums.length-1){
-                int midElement = nums[mid];
-                int leftElement = nums[mid-1];
-                
-                if(midElement!=leftElement){
-                    return midElement;
-                }
-
-                return -1;
-
+            //check if midElement is the single element
+            if(nums[mid-1]!=midElement && midElement!=nums[mid+1]){
+                return midElement;
             }
 
+            //check if single element is there in left half
+            if((mid%2==1 && nums[mid-1]==midElement) ||
+                (mid%2==0 && midElement==nums[mid+1])){
+                    si=mid+1;
+                }else{
+                    ei=mid-1;
+                }
         }
 
         return -1;
