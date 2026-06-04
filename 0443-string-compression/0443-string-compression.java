@@ -4,9 +4,10 @@ class Solution {
         int count;
         int writePointer=0;
         int i = 0;
+        int j = 0;
         while(i<n){
             count=0;
-            int j=i;
+            j=i;
             while(j<n && chars[j]==chars[i]){
                 count++;
                 j++;
