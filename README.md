@@ -20,6 +20,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0011-container-with-most-water) |
+| [0443-string-compression](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0443-string-compression) |
 ## Greedy
 |  |
 | ------- |
@@ -56,6 +57,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 | ------- |
 | [0049-group-anagrams](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0242-valid-anagram) |
+| [0443-string-compression](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0443-string-compression) |
 ## Sorting
 |  |
 | ------- |
