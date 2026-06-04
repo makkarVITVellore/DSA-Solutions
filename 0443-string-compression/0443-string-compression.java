@@ -6,14 +6,13 @@ class Solution {
         int i = 0;
         while(i<n){
             count=0;
-            char ch = chars[i];
             int j=i;
-            while(j<n && chars[j]==ch){
+            while(j<n && chars[j]==chars[i]){
                 count++;
                 j++;
             }
 
-            chars[writePointer++]=ch;
+            chars[writePointer++]=chars[i];
             if(count>1){
                 for(char c: Integer.toString(count).toCharArray()){
                     chars[writePointer++] = c;
