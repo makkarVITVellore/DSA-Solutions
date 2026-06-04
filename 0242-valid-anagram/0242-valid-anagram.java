@@ -8,11 +8,13 @@ class Solution {
         
         HashMap<Character,Integer> map = new HashMap<>();
         for(int i=0;i<l1;i++){
-            map.put(s.charAt(i), map.getOrDefault(s.charAt(i),0)+1);
+            char ch = s.charAt(i);
+            map.put(ch, map.getOrDefault(ch,0)+1);
         }
         
         for(int i=0;i<l2;i++){
-            map.put(t.charAt(i), map.getOrDefault(t.charAt(i),0)-1);
+            char ch = t.charAt(i);
+            map.put(ch, map.getOrDefault(ch,0)-1);
         }
         
         //check whether all characters of our map have freq=0
