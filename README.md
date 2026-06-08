@@ -13,6 +13,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 | [0128-longest-consecutive-sequence](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0540-single-element-in-a-sorted-array](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0918-maximum-sum-circular-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0948-sort-an-array](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0948-sort-an-array) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -42,11 +43,13 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0053-maximum-subarray) |
+| [0918-maximum-sum-circular-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0948-sort-an-array](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0948-sort-an-array) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0053-maximum-subarray) |
+| [0918-maximum-sum-circular-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0918-maximum-sum-circular-subarray) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -97,4 +100,12 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0128-longest-consecutive-sequence) |
+## Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0918-maximum-sum-circular-subarray) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0918-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
