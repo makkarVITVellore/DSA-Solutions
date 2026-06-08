@@ -1,7 +1,6 @@
 class Solution {
     public int maxSubarraySumCircular(int[] nums) {
-        int maxRunningSum=0;
-        int minRunningSum=0;
+        int runningSum=0;
         int arraySum = 0;
         int maxSum = Integer.MIN_VALUE;
         int minSum = Integer.MAX_VALUE;
@@ -9,16 +8,19 @@ class Solution {
         //non-circular case
         for(int i=0;i<n;i++){
             arraySum = arraySum + nums[i];
-            maxRunningSum = maxRunningSum + nums[i];
-            minRunningSum = minRunningSum + nums[i];
-            maxSum = Math.max(maxSum, maxRunningSum);
-            minSum = Math.min(minSum, minRunningSum);
-            if(maxRunningSum<0){
-                maxRunningSum = 0;
+            runningSum = runningSum + nums[i];
+            maxSum = Math.max(maxSum, runningSum);
+            if(runningSum<0){
+                runningSum = 0;
             }
+        }
 
-            if(minRunningSum>0){
-                minRunningSum = 0;
+        //calculate min subarray sum
+        for(int i=0;i<n;i++){
+            runningSum = runningSum + nums[i];
+            minSum = Math.min(minSum, runningSum);
+            if(runningSum>0){
+                runningSum = 0;
             }
         }
 
