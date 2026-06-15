@@ -9,11 +9,10 @@ class Solution {
             rightSum = rightSum + nums[i];
         }
 
-        int currSum = rightSum;
         for(int i=0;i<n;i++){
-            currSum = currSum - nums[i];
+            rightSum = rightSum - nums[i];
 
-            if(leftSum==currSum){
+            if(leftSum==rightSum){
                 pivot = i;
                 return pivot;
             }
