@@ -15,6 +15,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 | [0229-majority-element-ii](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0229-majority-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0724-find-pivot-index) |
 | [0918-maximum-sum-circular-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0918-maximum-sum-circular-subarray) |
 | [0948-sort-an-array](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0948-sort-an-array) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -59,6 +60,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0724-find-pivot-index) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 ## String
 |  |
