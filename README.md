@@ -7,6 +7,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0011-container-with-most-water) |
+| [0035-search-insert-position](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0073-set-matrix-zeroes) |
@@ -84,6 +85,7 @@ Collection of DSA questions to ace the coding interview! - Created using [LeetHu
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0069-sqrtx) |
 | [0540-single-element-in-a-sorted-array](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/makkarVITVellore/DSA-Solutions/tree/master/0704-binary-search) |
