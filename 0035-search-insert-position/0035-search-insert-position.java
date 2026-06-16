@@ -22,14 +22,14 @@ class Solution {
 
         if(low==high){
            if(nums[low]<target){
-                return low+1;
+                index = low+1;
            }
            else{
-                return low;
+                index = low;
            }
         }
         else if(low>high){
-            return high+1;
+            index = high+1;
         }
 
         return index;
