@@ -5,9 +5,10 @@ class Solution {
         int index = -1;
         while(low<=high){
             int mid = (low + high)/2;
-
+            
             if(nums[mid]==target){
-                return mid;
+                index = mid;
+                return index;
             }
             else if(nums[mid]<target){
                 low = mid + 1;
