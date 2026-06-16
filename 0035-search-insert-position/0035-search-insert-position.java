@@ -29,7 +29,7 @@ class Solution {
            }
         }
         else if(low>high){
-            index = high+1;
+            index = low;
         }
 
         return index;
